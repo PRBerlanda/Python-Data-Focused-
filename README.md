@@ -1,2 +1,2 @@
 # Python-Data-Focused-
-Some coding i did with Google Colab.
+All these .ipynb were coded using Google Colab.
