@@ -1,49 +1,25 @@
-# Python, data focused
+# 06-Statistics
 
-Notebooks de estudo de **Python para análise e engenharia de dados**, escritos no **Google Colab** durante cursos da Alura e do MBA em Data Science e Analytics (USP/Esalq).
+Branch do repositório [Python-Data-Focused-](https://github.com/PRBerlanda/Python-Data-Focused-). Veja a [main](https://github.com/PRBerlanda/Python-Data-Focused-/tree/main) para a lista de todas as branches.
 
-Cada tema fica em uma **branch** própria. A `main` contém apenas este README. Os notebooks de *machine learning* (cluster, PCA, regressões, árvores, séries temporais, text mining, web scraping) estão no repositório **[Data-Science](https://github.com/PRBerlanda/Data-Science)**.
+## Notebooks
 
-## Branches
+| Notebook | Conteúdo |
+|---|---|
+| [Statistics_Descriptive_PNAD](Statistics_Descriptive_PNAD.ipynb) | **Estatística descritiva com a PNAD 2015.** Tipos de variáveis, distribuições de frequência, medidas de tendência central, medidas separatrizes e medidas de dispersão, aplicadas aos dados da Pesquisa Nacional por Amostra de Domicílios (PNAD) 2015. Termina com um projeto de análise descritiva do mesmo conjunto de dados. |
+| [Statistics_Inference_and_Correlation](Statistics_Inference_and_Correlation.ipynb) | **Inferência estatística, correlação e regressão.** Distribuição amostral da média e distribuição normal, intervalos de confiança, testes de hipótese (z, t, não paramétricos e qui-quadrado) e correlação de Pearson com regressão linear simples. |
+| [Statistics_Summarizing_Data](Statistics_Summarizing_Data.ipynb) | **Estatística com Python: resumindo e analisando dados.** Tipos de variáveis, distribuições de frequência, medidas de tendência central, separatrizes e de dispersão aplicadas a demandas de uma rede de varejo (vendas do e-commerce e remuneração dos colaboradores). No final, os desafios "Mão na Massa" de cada aula, resolvidos com uma amostra da PNAD 2015. |
 
-| Branch | Notebooks | Conteúdo |
-|---|---|---|
-| [`01-Python-Fundamentals`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/01-Python-Fundamentals) | [NumPy_Fundamentals](https://github.com/PRBerlanda/Python-Data-Focused-/blob/01-Python-Fundamentals/NumPy_Fundamentals.ipynb)<br>[Python_Fundamentals](https://github.com/PRBerlanda/Python-Data-Focused-/blob/01-Python-Fundamentals/Python_Fundamentals.ipynb) | Fundamentos de NumPy; Fundamentos de Python |
-| [`02-Pandas-Data-Analysis`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/02-Pandas-Data-Analysis) | [Pandas_Filtering_Grouping_SEEG](https://github.com/PRBerlanda/Python-Data-Focused-/blob/02-Pandas-Data-Analysis/Pandas_Filtering_Grouping_SEEG.ipynb)<br>[Pandas_Fundamentals](https://github.com/PRBerlanda/Python-Data-Focused-/blob/02-Pandas-Data-Analysis/Pandas_Fundamentals.ipynb) | Filtrando e agrupando dados com pandas: emissões de gases de efeito estufa (SEEG); Conhecendo o pandas |
-| [`03-ETL-Data-Engineering`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/03-ETL-Data-Engineering) | [Data_Wrangling_MBA](https://github.com/PRBerlanda/Python-Data-Focused-/blob/03-ETL-Data-Engineering/Data_Wrangling_MBA.ipynb)<br>[ETL_Cleaning_and_Transformation](https://github.com/PRBerlanda/Python-Data-Focused-/blob/03-ETL-Data-Engineering/ETL_Cleaning_and_Transformation.ipynb)<br>[ETL_File_Formats_and_SQL](https://github.com/PRBerlanda/Python-Data-Focused-/blob/03-ETL-Data-Engineering/ETL_File_Formats_and_SQL.ipynb) | Data Wrangling com pandas (MBA USP/Esalq); Transformação e limpeza de dados com pandas; Formatos de arquivos e exportação para SQL |
-| [`04-PySpark`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/04-PySpark) | [PySpark_Introduction](https://github.com/PRBerlanda/Python-Data-Focused-/blob/04-PySpark/PySpark_Introduction.ipynb) | Introdução ao Apache Spark com PySpark |
-| [`05-Data-Visualization`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/05-Data-Visualization) | [Data_Visualization](https://github.com/PRBerlanda/Python-Data-Focused-/blob/05-Data-Visualization/Data_Visualization.ipynb) | Visualização de dados com Python |
-| [`06-Statistics`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/06-Statistics) | [Statistics_Descriptive_PNAD](https://github.com/PRBerlanda/Python-Data-Focused-/blob/06-Statistics/Statistics_Descriptive_PNAD.ipynb)<br>[Statistics_Inference_and_Correlation](https://github.com/PRBerlanda/Python-Data-Focused-/blob/06-Statistics/Statistics_Inference_and_Correlation.ipynb)<br>[Statistics_Summarizing_Data](https://github.com/PRBerlanda/Python-Data-Focused-/blob/06-Statistics/Statistics_Summarizing_Data.ipynb) | Estatística descritiva com a PNAD 2015; Inferência estatística, correlação e regressão; Estatística com Python: resumindo e analisando dados |
-| [`07-Financial-Data`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/07-Financial-Data) | [Stock_Prices_and_Fundamentals](https://github.com/PRBerlanda/Python-Data-Focused-/blob/07-Financial-Data/Stock_Prices_and_Fundamentals.ipynb) | Cotações e indicadores fundamentalistas de ações |
-| [`08-LLM-LlamaIndex`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/08-LLM-LlamaIndex) | [LlamaIndex_Pandas_Query_Engine](https://github.com/PRBerlanda/Python-Data-Focused-/blob/08-LLM-LlamaIndex/LlamaIndex_Pandas_Query_Engine.ipynb)<br>[LlamaIndex_RAG_and_JSON_Responses](https://github.com/PRBerlanda/Python-Data-Focused-/blob/08-LLM-LlamaIndex/LlamaIndex_RAG_and_JSON_Responses.ipynb)<br>[LlamaIndex_SQL_Database](https://github.com/PRBerlanda/Python-Data-Focused-/blob/08-LLM-LlamaIndex/LlamaIndex_SQL_Database.ipynb) | LlamaIndex: consultas em linguagem natural sobre DataFrames; LlamaIndex: RAG, chatbot e respostas automatizadas em JSON; LlamaIndex: assistente para consultar um banco de dados SQL |
+Para abrir no Colab: *Arquivo → Abrir notebook → GitHub*, informe `PRBerlanda/Python-Data-Focused-` e escolha esta branch. A primeira célula de cada notebook indica os dados necessários. Localmente: `pip install -r requirements.txt`.
 
-## Reorganização (novembro de 2026)
+## Notas da consolidação
 
-- **De 84 notebooks do Google Colab e 15 da antiga `main` para 16 notebooks em 8 branches.** Cópias, versões antigas, rascunhos (`Untitled*`) e notebooks vazios foram fundidos ou descartados.
-- **Notebooks com dados de RH** (absenteísmo/turnover) **e os de machine learning** ficaram de fora; os de ML estão no repositório Data-Science.
-- **Notas da consolidação:** o README de cada branch lista as origens de cada notebook, o que foi removido e as correções feitas.
-- **Versão anterior:** os notebooks da antiga `main` continuam no histórico do Git (commit `e5941d0`).
-
-## Padrão dos notebooks
-
-- A primeira célula traz o título, a origem (curso), os dados necessários e o índice das seções.
-- A segunda célula é o setup: instala só o que não vem no Colab e concentra todos os imports.
-- As seções são numeradas (`## 1.`, `### 1.1`) e cada uma começa com uma explicação curta.
-- Os notebooks são salvos sem saídas; rode no Colab para gerar tabelas e gráficos.
-- Chaves de API nunca ficam no código. Elas são lidas dos *Secrets* do Colab (`userdata.get(...)`).
-
-## Como rodar
-
-**Google Colab (recomendado):** abra o notebook no GitHub, troque `github.com` por `githubtocolab.com` na barra de endereço ou use *Arquivo → Abrir notebook → GitHub* no Colab e escolha a branch. Os notebooks que usam arquivos de curso indicam na primeira célula o que enviar para `/content/`.
-
-**Localmente:**
-
-```bash
-git clone -b <branch> https://github.com/PRBerlanda/Python-Data-Focused-.git
-cd Python-Data-Focused-
-python -m venv venv
-pip install -r requirements.txt
-jupyter lab
-```
-
-Linhas que começam com `!` e o módulo `google.colab` funcionam só no Colab ou no Jupyter.
+- **Statistics_Descriptive_PNAD**: `repo_atual/Statistics_1` (seções 1–5) + `Estatística Alura` (classes de altura e crosstab renda média × nível de renda × sexo, na 2.2) + `Análise_Descritiva` (seção 6, "Projeto"). Dados: `dados.csv` (PNAD 2015) em `/content/`.
+- **Statistics_Summarizing_Data**: `repo_atual/Frequency_Measures` (= "Estatística Python frequências e medidas", seções 1–5) + `repo_atual/Resuming_Data` (com a correção `.isin`) e `Aula_03_Desafios` (seção 6, Desafios por aula). Usei do Aula_03 só o que faltava: o print da menor/maior renda, a verificação da moda da renda e os histogramas de Altura/Idade com as MTC. Todos os dados vêm por URL.
+- **Statistics_Inference_and_Correlation**: `repo_atual/Hyphotesis_Test` (= "Teste de Hipótese", seções 1–3) + "Correlação e Regressão" (4.1–4.2; fórmulas de covariância, Pearson e β preservadas) + "Correl Pearson e Gráficos" (4.3). Dados: `dados_alturas.csv`, `dados_idade_aposentadoria.csv`, `dados_vida_lampada.csv`, `experimento_lampadas_natalinas.csv`, `dados.csv`, `Desemprego.xlsx`.
+- **Removido**: saídas, células vazias, `!pip install pandas`, imports repetidos, `df.head()`/`unique()` soltos, a linha de autocomplete `from numpy._core.defchararray import index`, o print de versões das bibliotecas, a célula-modelo `pandas.cut(x=, bins=, ...)` (sintaxe inválida), `values_counts()` (exemplo de brinquedo com erro de digitação), cálculos duplicados (ticket médio, estat_operacional, tabelas das notas, cargas de dados), o 1º `pd.cut` sobre a renda completa em Resuming_Data e um histplot bivariado de teste. Também saíram os placeholders "Escreva suas conclusões aqui...".
+- **Correções (descritiva)**: labels do Projeto eram um conjunto `{'E','D',...}` (sem ordem, rótulos trocados) → lista; as classes do Projeto usavam 2000/5000/15000/25000 → múltiplos do SM (788). Rótulos de sexo invertidos no crosstab da Estatística Alura. `Series.mad()` (removido no pandas 2) → média dos |desvios|. `median()` sobre um DataFrame com coluna de texto → Series. `bins=17` fixo → `k` de Sturges. Faltava `*100` nos percentuais. `pd.value_counts`/`sns.distplot` (obsoletos) → `.value_counts()`/`sns.histplot`. `[0]` posicional → acesso por coluna.
+- **Correções (resumindo dados)**: um espaço antes de `rel_pos` causava IndentationError. Renomeei a variável `max`, que sobrescrevia a função embutida. Renda mínima do 1% mais bem pago: `== p99` → `>= p99`. A idade limite de 20% usava só quem tinha renda ≤ 6000 → base completa. Centro-Oeste: as medidas pedidas por sexo agora saem por `Cat.Sexo`. Corrigi o eixo "Gênero" → "Frequência" e "Idade (metros)" → "Idade (anos)".
+- **Correções (inferência)**: o erro padrão do IC era `media / sqrt(n)` → `desvio / sqrt(n)`, com n = tamanho da amostra de lâmpadas. A contagem dentro de ±3 EP contava as linhas NaN → `between()`. A decisão do teste de propaganda usava o p-valor de outro teste. `stats, p = ...` sobrescrevia o módulo `scipy.stats` → nomes próprios. A fórmula t de duas amostras (sintaxe inválida, sem elevar o desvio ao quadrado) virou um cálculo com variâncias. O r de Pearson, que usava números fixos, agora é calculado com `cov()`/`std()`. Corrigi o título "Idade x Renda" → "Altura x Renda". O código repetido de decisão virou `decisao()`.
+- **Completado** (células vazias no original, com o código mínimo que o enunciado pede): Frequency_Measures 1.4 (discretas/contínuas), mediana pela fórmula (Demanda 5), moda dos livros (Demanda 6), histogramas de tempo de entrega (Demanda 7); Análise_Descritiva 6.2–6.5, seguindo as dicas do enunciado; Resuming_Data, o histograma acumulado de idade; Correlação, o cálculo de β pela fórmula.
+- Não foram executados (sem os arquivos de dados); só a validação `nbtools check`.
