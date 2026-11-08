@@ -1,49 +1,22 @@
-# Python, data focused
+# 04-PySpark
 
-Notebooks de estudo de **Python para análise e engenharia de dados**, escritos no **Google Colab** durante cursos da Alura e do MBA em Data Science e Analytics (USP/Esalq).
+Branch do repositório [Python-Data-Focused-](https://github.com/PRBerlanda/Python-Data-Focused-). Veja a [main](https://github.com/PRBerlanda/Python-Data-Focused-/tree/main) para a lista de todas as branches.
 
-Cada tema fica em uma **branch** própria. A `main` contém apenas este README. Os notebooks de *machine learning* (cluster, PCA, regressões, árvores, séries temporais, text mining, web scraping) estão no repositório **[Data-Science](https://github.com/PRBerlanda/Data-Science)**.
+## Notebooks
 
-## Branches
+| Notebook | Conteúdo |
+|---|---|
+| [PySpark_Introduction](PySpark_Introduction.ipynb) | **Introdução ao Apache Spark com PySpark.** Primeiros passos com PySpark no Google Colab usando os dados públicos de CNPJ da Receita Federal: leitura de CSV, tipos de dados, seleções, filtros, agregações, *joins*, Spark SQL e formas de armazenamento (CSV, Parquet, ORC e particionamento). |
 
-| Branch | Notebooks | Conteúdo |
-|---|---|---|
-| [`01-Python-Fundamentals`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/01-Python-Fundamentals) | [NumPy_Fundamentals](https://github.com/PRBerlanda/Python-Data-Focused-/blob/01-Python-Fundamentals/NumPy_Fundamentals.ipynb)<br>[Python_Fundamentals](https://github.com/PRBerlanda/Python-Data-Focused-/blob/01-Python-Fundamentals/Python_Fundamentals.ipynb) | Fundamentos de NumPy; Fundamentos de Python |
-| [`02-Pandas-Data-Analysis`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/02-Pandas-Data-Analysis) | [Pandas_Filtering_Grouping_SEEG](https://github.com/PRBerlanda/Python-Data-Focused-/blob/02-Pandas-Data-Analysis/Pandas_Filtering_Grouping_SEEG.ipynb)<br>[Pandas_Fundamentals](https://github.com/PRBerlanda/Python-Data-Focused-/blob/02-Pandas-Data-Analysis/Pandas_Fundamentals.ipynb) | Filtrando e agrupando dados com pandas: emissões de gases de efeito estufa (SEEG); Conhecendo o pandas |
-| [`03-ETL-Data-Engineering`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/03-ETL-Data-Engineering) | [Data_Wrangling_MBA](https://github.com/PRBerlanda/Python-Data-Focused-/blob/03-ETL-Data-Engineering/Data_Wrangling_MBA.ipynb)<br>[ETL_Cleaning_and_Transformation](https://github.com/PRBerlanda/Python-Data-Focused-/blob/03-ETL-Data-Engineering/ETL_Cleaning_and_Transformation.ipynb)<br>[ETL_File_Formats_and_SQL](https://github.com/PRBerlanda/Python-Data-Focused-/blob/03-ETL-Data-Engineering/ETL_File_Formats_and_SQL.ipynb) | Data Wrangling com pandas (MBA USP/Esalq); Transformação e limpeza de dados com pandas; Formatos de arquivos e exportação para SQL |
-| [`04-PySpark`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/04-PySpark) | [PySpark_Introduction](https://github.com/PRBerlanda/Python-Data-Focused-/blob/04-PySpark/PySpark_Introduction.ipynb) | Introdução ao Apache Spark com PySpark |
-| [`05-Data-Visualization`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/05-Data-Visualization) | [Data_Visualization](https://github.com/PRBerlanda/Python-Data-Focused-/blob/05-Data-Visualization/Data_Visualization.ipynb) | Visualização de dados com Python |
-| [`06-Statistics`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/06-Statistics) | [Statistics_Descriptive_PNAD](https://github.com/PRBerlanda/Python-Data-Focused-/blob/06-Statistics/Statistics_Descriptive_PNAD.ipynb)<br>[Statistics_Inference_and_Correlation](https://github.com/PRBerlanda/Python-Data-Focused-/blob/06-Statistics/Statistics_Inference_and_Correlation.ipynb)<br>[Statistics_Summarizing_Data](https://github.com/PRBerlanda/Python-Data-Focused-/blob/06-Statistics/Statistics_Summarizing_Data.ipynb) | Estatística descritiva com a PNAD 2015; Inferência estatística, correlação e regressão; Estatística com Python: resumindo e analisando dados |
-| [`07-Financial-Data`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/07-Financial-Data) | [Stock_Prices_and_Fundamentals](https://github.com/PRBerlanda/Python-Data-Focused-/blob/07-Financial-Data/Stock_Prices_and_Fundamentals.ipynb) | Cotações e indicadores fundamentalistas de ações |
-| [`08-LLM-LlamaIndex`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/08-LLM-LlamaIndex) | [LlamaIndex_Pandas_Query_Engine](https://github.com/PRBerlanda/Python-Data-Focused-/blob/08-LLM-LlamaIndex/LlamaIndex_Pandas_Query_Engine.ipynb)<br>[LlamaIndex_RAG_and_JSON_Responses](https://github.com/PRBerlanda/Python-Data-Focused-/blob/08-LLM-LlamaIndex/LlamaIndex_RAG_and_JSON_Responses.ipynb)<br>[LlamaIndex_SQL_Database](https://github.com/PRBerlanda/Python-Data-Focused-/blob/08-LLM-LlamaIndex/LlamaIndex_SQL_Database.ipynb) | LlamaIndex: consultas em linguagem natural sobre DataFrames; LlamaIndex: RAG, chatbot e respostas automatizadas em JSON; LlamaIndex: assistente para consultar um banco de dados SQL |
+Para abrir no Colab: *Arquivo → Abrir notebook → GitHub*, informe `PRBerlanda/Python-Data-Focused-` e escolha esta branch. A primeira célula de cada notebook indica os dados necessários. Localmente: `pip install -r requirements.txt`.
 
-## Reorganização (novembro de 2026)
+## Notas da consolidação
 
-- **De 84 notebooks do Google Colab e 15 da antiga `main` para 16 notebooks em 8 branches.** Cópias, versões antigas, rascunhos (`Untitled*`) e notebooks vazios foram fundidos ou descartados.
-- **Notebooks com dados de RH** (absenteísmo/turnover) **e os de machine learning** ficaram de fora; os de ML estão no repositório Data-Science.
-- **Notas da consolidação:** o README de cada branch lista as origens de cada notebook, o que foi removido e as correções feitas.
-- **Versão anterior:** os notebooks da antiga `main` continuam no histórico do Git (commit `e5941d0`).
-
-## Padrão dos notebooks
-
-- A primeira célula traz o título, a origem (curso), os dados necessários e o índice das seções.
-- A segunda célula é o setup: instala só o que não vem no Colab e concentra todos os imports.
-- As seções são numeradas (`## 1.`, `### 1.1`) e cada uma começa com uma explicação curta.
-- Os notebooks são salvos sem saídas; rode no Colab para gerar tabelas e gráficos.
-- Chaves de API nunca ficam no código. Elas são lidas dos *Secrets* do Colab (`userdata.get(...)`).
-
-## Como rodar
-
-**Google Colab (recomendado):** abra o notebook no GitHub, troque `github.com` por `githubtocolab.com` na barra de endereço ou use *Arquivo → Abrir notebook → GitHub* no Colab e escolha a branch. Os notebooks que usam arquivos de curso indicam na primeira célula o que enviar para `/content/`.
-
-**Localmente:**
-
-```bash
-git clone -b <branch> https://github.com/PRBerlanda/Python-Data-Focused-.git
-cd Python-Data-Focused-
-python -m venv venv
-pip install -r requirements.txt
-jupyter lab
-```
-
-Linhas que começam com `!` e o módulo `google.colab` funcionam só no Colab ou no Jupyter.
+- **PySpark_Introduction** (46 células) ← "Spark for Data Science - Introduction.ipynb" (curso Alura de introdução ao Spark): teoria → 1; instalação Windows/Colab → 2; carga → 3; demais seções na ordem do original.
+- **Setup atualizado:** o original instalava `openjdk-8`, mas apontava `JAVA_HOME` para o Java 21, baixava `spark-4.2.0-bin-hadoop3.tgz` com `wget` e usava `findspark`. Agora: `apt-get install openjdk-17-jdk-headless` (o Spark 4.x exige Java 17+) + `!pip install -q pyspark` + `SparkSession`; `findspark`, `SPARK_HOME` e o download manual foram removidos. Requisitos da seção Windows atualizados (Java 7/Python 2.6 → Java 17/Python 3).
+- **Segurança:** havia um **authtoken do ngrok literal** (`!ngrok authtoken "..."`) usado só para expor a Spark UI. A parte do ngrok (download do binário, `pyngrok`, token) foi removida por ser acessória; o token não foi copiado. Fica a dica opcional `output.serve_kernel_port_as_window(4050)` do Colab. Recomenda-se revogar esse token no painel do ngrok.
+- `empresasJoinView` e `freqView` (detectados como "imports" no inventário) são nomes de *views* temporárias do Spark SQL usados dentro de strings; não são módulos.
+- **Generalização:** as três leituras com renomeação `_c0..._cN` viraram `ler_csv_receita(nome, colunas)`; a extração dos `.zip` (antes comentada) roda só se a pasta ainda não existir.
+- **Correções:** `%%time` estava depois de um comentário (precisa ser a 1ª linha da célula); `spark.stop` → `spark.stop()`; `.count().alias('registros')` não renomeava a coluna → `.agg(f.count('*').alias('registros'))`; a 2ª consulta SQL sobrescrevia `freq` → `freq_sql`; saídas gravadas dentro da pasta de entrada `empresas/` → `curso-spark/saida/`; import não usado `FloatType` removido; links da documentação 3.1.2 → `latest`.
+- **Removido:** saídas, `!apt-get update`, `!pip install findspark`/`pyngrok`, células do ngrok.
+- **Dados:** `empresas.zip`, `estabelecimentos.zip`, `socios.zip` (URLs públicas do curso, no notebook) na pasta `MyDrive/curso-spark` do Google Drive.
