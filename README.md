@@ -1,49 +1,26 @@
-# Python, data focused
+# 08-LLM-LlamaIndex
 
-Notebooks de estudo de **Python para análise e engenharia de dados**, escritos no **Google Colab** durante cursos da Alura e do MBA em Data Science e Analytics (USP/Esalq).
+Branch do repositório [Python-Data-Focused-](https://github.com/PRBerlanda/Python-Data-Focused-). Veja a [main](https://github.com/PRBerlanda/Python-Data-Focused-/tree/main) para a lista de todas as branches.
 
-Cada tema fica em uma **branch** própria. A `main` contém apenas este README. Os notebooks de *machine learning* (cluster, PCA, regressões, árvores, séries temporais, text mining, web scraping) estão no repositório **[Data-Science](https://github.com/PRBerlanda/Data-Science)**.
+## Notebooks
 
-## Branches
+| Notebook | Conteúdo |
+|---|---|
+| [LlamaIndex_Pandas_Query_Engine](LlamaIndex_Pandas_Query_Engine.ipynb) | **LlamaIndex: consultas em linguagem natural sobre DataFrames.** Uso do `PandasQueryEngine` do LlamaIndex com uma LLM da Groq para responder perguntas sobre um DataFrame, customização de prompts e saídas com um pipeline (Workflow), geração de relatório em PDF e uma aplicação Gradio que analisa qualquer arquivo CSV. |
+| [LlamaIndex_RAG_and_JSON_Responses](LlamaIndex_RAG_and_JSON_Responses.ipynb) | **LlamaIndex: RAG, chatbot e respostas automatizadas em JSON.** Processo de RAG (*Retrieval Augmented Generation*) com LlamaIndex: leitura de documentos, divisão em chunks, embeddings, armazenamento em banco vetorial (ChromaDB), chatbot com memória em Gradio e um pipeline de recomendação que gera respostas em JSON validadas contra a base de dados. |
+| [LlamaIndex_SQL_Database](LlamaIndex_SQL_Database.ipynb) | **LlamaIndex: assistente para consultar um banco de dados SQL.** Conexão a um banco SQLite com SQLAlchemy, indexação das tabelas com embeddings para que o LlamaIndex encontre a tabela relevante para cada pergunta, geração de consultas SQL com uma LLM da Groq, prompts personalizados, um pipeline com Workflow e um chat em Gradio. |
 
-| Branch | Notebooks | Conteúdo |
-|---|---|---|
-| [`01-Python-Fundamentals`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/01-Python-Fundamentals) | [NumPy_Fundamentals](https://github.com/PRBerlanda/Python-Data-Focused-/blob/01-Python-Fundamentals/NumPy_Fundamentals.ipynb)<br>[Python_Fundamentals](https://github.com/PRBerlanda/Python-Data-Focused-/blob/01-Python-Fundamentals/Python_Fundamentals.ipynb) | Fundamentos de NumPy; Fundamentos de Python |
-| [`02-Pandas-Data-Analysis`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/02-Pandas-Data-Analysis) | [Pandas_Filtering_Grouping_SEEG](https://github.com/PRBerlanda/Python-Data-Focused-/blob/02-Pandas-Data-Analysis/Pandas_Filtering_Grouping_SEEG.ipynb)<br>[Pandas_Fundamentals](https://github.com/PRBerlanda/Python-Data-Focused-/blob/02-Pandas-Data-Analysis/Pandas_Fundamentals.ipynb) | Filtrando e agrupando dados com pandas: emissões de gases de efeito estufa (SEEG); Conhecendo o pandas |
-| [`03-ETL-Data-Engineering`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/03-ETL-Data-Engineering) | [Data_Wrangling_MBA](https://github.com/PRBerlanda/Python-Data-Focused-/blob/03-ETL-Data-Engineering/Data_Wrangling_MBA.ipynb)<br>[ETL_Cleaning_and_Transformation](https://github.com/PRBerlanda/Python-Data-Focused-/blob/03-ETL-Data-Engineering/ETL_Cleaning_and_Transformation.ipynb)<br>[ETL_File_Formats_and_SQL](https://github.com/PRBerlanda/Python-Data-Focused-/blob/03-ETL-Data-Engineering/ETL_File_Formats_and_SQL.ipynb) | Data Wrangling com pandas (MBA USP/Esalq); Transformação e limpeza de dados com pandas; Formatos de arquivos e exportação para SQL |
-| [`04-PySpark`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/04-PySpark) | [PySpark_Introduction](https://github.com/PRBerlanda/Python-Data-Focused-/blob/04-PySpark/PySpark_Introduction.ipynb) | Introdução ao Apache Spark com PySpark |
-| [`05-Data-Visualization`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/05-Data-Visualization) | [Data_Visualization](https://github.com/PRBerlanda/Python-Data-Focused-/blob/05-Data-Visualization/Data_Visualization.ipynb) | Visualização de dados com Python |
-| [`06-Statistics`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/06-Statistics) | [Statistics_Descriptive_PNAD](https://github.com/PRBerlanda/Python-Data-Focused-/blob/06-Statistics/Statistics_Descriptive_PNAD.ipynb)<br>[Statistics_Inference_and_Correlation](https://github.com/PRBerlanda/Python-Data-Focused-/blob/06-Statistics/Statistics_Inference_and_Correlation.ipynb)<br>[Statistics_Summarizing_Data](https://github.com/PRBerlanda/Python-Data-Focused-/blob/06-Statistics/Statistics_Summarizing_Data.ipynb) | Estatística descritiva com a PNAD 2015; Inferência estatística, correlação e regressão; Estatística com Python: resumindo e analisando dados |
-| [`07-Financial-Data`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/07-Financial-Data) | [Stock_Prices_and_Fundamentals](https://github.com/PRBerlanda/Python-Data-Focused-/blob/07-Financial-Data/Stock_Prices_and_Fundamentals.ipynb) | Cotações e indicadores fundamentalistas de ações |
-| [`08-LLM-LlamaIndex`](https://github.com/PRBerlanda/Python-Data-Focused-/tree/08-LLM-LlamaIndex) | [LlamaIndex_Pandas_Query_Engine](https://github.com/PRBerlanda/Python-Data-Focused-/blob/08-LLM-LlamaIndex/LlamaIndex_Pandas_Query_Engine.ipynb)<br>[LlamaIndex_RAG_and_JSON_Responses](https://github.com/PRBerlanda/Python-Data-Focused-/blob/08-LLM-LlamaIndex/LlamaIndex_RAG_and_JSON_Responses.ipynb)<br>[LlamaIndex_SQL_Database](https://github.com/PRBerlanda/Python-Data-Focused-/blob/08-LLM-LlamaIndex/LlamaIndex_SQL_Database.ipynb) | LlamaIndex: consultas em linguagem natural sobre DataFrames; LlamaIndex: RAG, chatbot e respostas automatizadas em JSON; LlamaIndex: assistente para consultar um banco de dados SQL |
+Para abrir no Colab: *Arquivo → Abrir notebook → GitHub*, informe `PRBerlanda/Python-Data-Focused-` e escolha esta branch. A primeira célula de cada notebook indica os dados necessários. Localmente: `pip install -r requirements.txt`.
 
-## Reorganização (novembro de 2026)
+## Notas da consolidação
 
-- **De 84 notebooks do Google Colab e 15 da antiga `main` para 16 notebooks em 8 branches.** Cópias, versões antigas, rascunhos (`Untitled*`) e notebooks vazios foram fundidos ou descartados.
-- **Notebooks com dados de RH** (absenteísmo/turnover) **e os de machine learning** ficaram de fora; os de ML estão no repositório Data-Science.
-- **Notas da consolidação:** o README de cada branch lista as origens de cada notebook, o que foi removido e as correções feitas.
-- **Versão anterior:** os notebooks da antiga `main` continuam no histórico do Git (commit `e5941d0`).
-
-## Padrão dos notebooks
-
-- A primeira célula traz o título, a origem (curso), os dados necessários e o índice das seções.
-- A segunda célula é o setup: instala só o que não vem no Colab e concentra todos os imports.
-- As seções são numeradas (`## 1.`, `### 1.1`) e cada uma começa com uma explicação curta.
-- Os notebooks são salvos sem saídas; rode no Colab para gerar tabelas e gráficos.
-- Chaves de API nunca ficam no código. Elas são lidas dos *Secrets* do Colab (`userdata.get(...)`).
-
-## Como rodar
-
-**Google Colab (recomendado):** abra o notebook no GitHub, troque `github.com` por `githubtocolab.com` na barra de endereço ou use *Arquivo → Abrir notebook → GitHub* no Colab e escolha a branch. Os notebooks que usam arquivos de curso indicam na primeira célula o que enviar para `/content/`.
-
-**Localmente:**
-
-```bash
-git clone -b <branch> https://github.com/PRBerlanda/Python-Data-Focused-.git
-cd Python-Data-Focused-
-python -m venv venv
-pip install -r requirements.txt
-jupyter lab
-```
-
-Linhas que começam com `!` e o módulo `google.colab` funcionam só no Colab ou no Jupyter.
+- **Secrets do Colab** (ícone de chave, com acesso liberado ao notebook): `GROQ_API` (os três notebooks, mesmo nome usado nos originais) e `OPENAI_API_KEY` (só a seção 1, opcional, do notebook de RAG). Nenhum original tinha chave literal no código nem nas saídas.
+- **LlamaIndex_Pandas_Query_Engine**: `Aula_5.ipynb` (base; `Aula_5(1)`/`(2)` são idênticas entre si e só diferem por instalações e pelo modelo antigo `llama3-70b-8192`) → seções 1–3 e 5–6; `LlamaIndex - Analising Data with Pandas` → pipeline com Workflow (seção 4); `LlamaIndex CSV Reader` → app genérico com leitura de qualquer CSV (seção 6).
+- **LlamaIndex_SQL_Database**: `LlamaIndex DB SQL Reader` (versão passo a passo; a célula “Prompt completo” que repetia tudo de uma vez foi removida).
+- **LlamaIndex_RAG_and_JSON_Responses**: `Untitled18` → seção 1 (RAG mínimo com OpenAI, opcional); `LlamaIndex Chatbot with RAG` → seções 2–4; `LlamaIndex Automated Responses - With JSON formating` → seções 5–6.
+- **Removido**: cascatas de `pip uninstall/install` com versões fixas e `!rm -rf`, as 5 versões repetidas do app Gradio (fica só a final), o `app.py` duplicado para o Hugging Face (resumido em markdown), consultas repetidas (“exibir” vs “plotar”), testes de versão com erro, import não usado de `mistralai`, `SimpleChatEngine` sem uso, `get` de um ID fixo do Chroma, e a célula Streamlit que dava erro (virou trecho de código em markdown).
+- **QueryPipeline → Workflow**: `QueryPipeline`/`FnComponent` foram removidos das versões recentes do LlamaIndex; o pipeline Pandas e a cadeia SQL foram reescritos com `Workflow`/`@step`, mantendo os mesmos prompts e etapas. O pipeline Pandas virou uma classe `PandasWorkflow(df, llm)` reutilizada no app (corrige o `return` fora da função do original).
+- **Correções**: `gerar_pdf` devolvia tupla para um único `gr.File` e `add_historico` devolvia `None` sem pergunta; PDF passou para `fpdf2` com `new_x/new_y` e texto convertido para latin-1 (evita erro com emojis); leitura de CSV com `chardet` + separador inferido (o original importava `chardet` sem usar); no SQL, o índice “contextualizado” era recriado sem as descrições (`context_str`) — agora usa as descrições; histórico do `gr.Chatbot` no formato `role/content`; no RAG, removido o wrapper de embedding do Chroma (chamava `HuggingFaceEmbedding.embed`, que não existe, e carregava o modelo duas vezes), índice carregado com `from_vector_store` quando a coleção já existe (em vez de `load_index_from_storage` logo após criar), embedding calculado da pergunta (e não da resposta), `validando` checava só o último título (indentação), `json.loads` protegido contra blocos ```json, `os.makedirs('csv')` antes de salvar.
+- **Modelos**: Groq `openai/gpt-oss-20b` (o mais recente usado nos originais), embeddings `BAAI/bge-m3` (SQL) e `intfloat/multilingual-e5-large` (RAG), OpenAI `gpt-5.4-mini` na introdução.
+- Apps intermediários usam `launch()` sem `debug=True` para não travar o “Executar tudo”; `theme` passado em `launch()` (Gradio 6, instalado com `-U`).
+- **Dados**: `vendas.csv` e `livros_mais_vendidos.csv` via URL; enviar `ecommerce.db` para `/content/`, PDFs do catálogo para `/content/pdf/` e textos para `/content/artigos/`.
